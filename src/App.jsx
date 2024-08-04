@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from './Component/Header'
 import Home from './Component/Home'
 import About from './Component/About'
@@ -10,7 +10,12 @@ import Loading from './Component/Loading'
 import { useGSAP } from '@gsap/react'
 
 function App() {
+  const [menu, setmenu] = useState(false);
 
+  //  window.addEventListener('click',()=>{
+  //   setmenu(!menu)
+  //   console.log(menu)
+  //  })
     // useGSAP(()=>{
     //   var tl = new gsap.timeline();
 
@@ -22,8 +27,10 @@ function App() {
   return (
      <>
 
-    <div className='portfolio bg-gray-100 w-full h-full  px-10 lg:px-40 md:px-20 sm:px-10'>
-      <Header/>
+    <div onClick={()=>{
+      menu ? setmenu(!menu) : ''
+      }} className='portfolio bg-gray-100 w-full h-full  px-10 lg:px-40 md:px-20 sm:px-10'>
+      <Header menu={menu} setmenu={setmenu} />
       <Loading/>
       <Home/>
       <About/>

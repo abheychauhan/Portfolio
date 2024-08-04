@@ -34,8 +34,8 @@ function About() {
                               <h3 className='text-sm text-zinc-500 mt-2'> online 24/7 </h3>
                             </div>
                         </div>
-                        <p>A Front End Developer is a computer programmer who specializes in designing and building the user interface and user experience (UI/UX) of websites and web applications.</p>
-                        <a href='/public/abhey singh.pdf' download="cv(abhey)" className='px-10 text-white hover:text-zinc-500 hover:bg-transparent border-[#5B5BF5] border-2 transition ease-in-out duration-300 block py-3 w-fit rounded-xl bg-[#5B5BF5]'>Download CV</a>
+                        <p>As a full stack developer, I excel in building comprehensive web applications by leveraging my expertise in front-end technologies like HTML, CSS, JavaScript, ReactJS, and Bootstrap, combined with powerful back-end skills in NodeJS, ExpressJS, and MongoDB, to deliver seamless, responsive, and high-performance solutions from the user interface to the server and database architecture</p>
+                        <a href='/public/abhey singh.pdf' download="cv(abhey).pdf" className='px-10 text-white hover:text-zinc-500 hover:bg-transparent border-[#5B5BF5] border-2 transition ease-in-out duration-300 block py-3 w-fit rounded-xl bg-[#5B5BF5]'>Download CV</a>
                     </div>
                 </div>
     </div>

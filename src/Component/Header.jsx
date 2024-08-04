@@ -1,10 +1,8 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
 
-function Header() {
+function Header({menu , setmenu}) {
 
 
-  const [menu, setmenu] = useState(false);
 
  
   return (
