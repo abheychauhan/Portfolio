@@ -49,7 +49,7 @@ function Loading() {
       <div className="content flex items-center text-white font-bold w-full  sm:flex-row flex-col justify-center p-10 h-full gap-5">
          <span className='h-fit p-2  overflow-hidden block'><h1 className='text-3xl'>Welcome  </h1></span>
          <span className='h-fit p-2 block overflow-hidden'><h1 className='text-3xl'>To</h1></span>
-         <span className='h-fit p-2 block overflow-hidden'><h1 className='text-3xl'>My Porfolio</h1></span>
+         <span className='h-fit p-2 block overflow-hidden'><h1 className='text-3xl'>My Portfolio</h1></span>
       </div>
       
     </div>
