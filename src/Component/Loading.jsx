@@ -31,16 +31,6 @@ function Loading() {
     })
 
   })
-  let i;
-  const loop = ()=>{
-    for(i=0 ; i<100 ; i++){
-      return(<h1>{i}</h1>)
- }
-  }
-
-   
-
-
 
 
   

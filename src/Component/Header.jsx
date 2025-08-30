@@ -7,7 +7,7 @@ function Header({menu , setmenu}) {
  
   return (
     
-    <div className='header z-[2] fixed h-fit left-0 top-0 bg-zinc-200 rounded-b-3xl px-10 lg:px-40 md:px-20 sm:px-10  w-full border-zinc-500 items-center  flex justify-between py-5'>
+    <div className='header z-[2] fixed h-fit left-0 top-0 bg-[#F3F4F6] text-zinc-400 rounded-b-3xl px-10 lg:px-40 md:px-20 sm:px-10  w-full border-zinc-500 items-center  flex justify-between py-5'>
         <div className='n sm:block hidden'>
            {/* <h1 className='name font-bold text-2xl text-[#5B5BF5]'>Abhey</h1> */}
         </div>

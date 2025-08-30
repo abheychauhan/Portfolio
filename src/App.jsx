@@ -12,18 +12,8 @@ import { useGSAP } from '@gsap/react'
 function App() {
   const [menu, setmenu] = useState(false);
 
-  //  window.addEventListener('click',()=>{
-  //   setmenu(!menu)
-  //   console.log(menu)
-  //  })
-    // useGSAP(()=>{
-    //   var tl = new gsap.timeline();
 
-    //       tl.to('.portfolio', 1, {background: 'linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%)', repeatDelay:1, repeat:-1, yoyo:true,duration:3})
-
-                
-    //           })
-          
+   
   return (
      <>
 

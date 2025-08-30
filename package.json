@@ -13,9 +13,12 @@
     "@emailjs/browser": "^4.4.1",
     "@gsap/react": "^2.1.1",
     "@react-spring/parallax": "^9.7.4",
+    "@tailwindcss/vite": "^4.1.12",
     "gsap": "^3.12.5",
+    "locomotive-scroll": "^4.1.4",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-locomotive-scroll": "^0.2.2",
     "react-message-popup": "^2.0.0-alpha.0",
     "react-router-dom": "^6.25.1"
   },
@@ -29,7 +32,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.40",
-    "tailwindcss": "^3.4.7",
+    "tailwindcss": "^3.4.17",
     "vite": "^5.3.4"
   }
 }

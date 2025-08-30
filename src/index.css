@@ -62,7 +62,11 @@ html,body{
 .say:hover span{
   scale: 1.2;
 }
-
+.form_div{
+  position: relative;
+  height: 60px;
+  width: 100%;
+}
 .form_div input{
  position: absolute;
  top: 0;
@@ -83,11 +87,7 @@ html,body{
   padding: 10px;
   border-radius: 10px;
  }
-.form_div{
-  position: relative;
-  height: 60px;
-  width: 100%;
-}
+
 .form_div label{
   position: absolute;
   z-index: 1;
@@ -125,7 +125,7 @@ form{
   position: relative;
   overflow: hidden;
   padding-bottom: 2px;
-  color: white;
+  color: rgb(142, 140, 140);
   transition: all ease-in-out .2s;
 }
 .nav-list a::after{
@@ -154,6 +154,7 @@ form{
 
 }
 
+
 .n{
   width: 70px;
   height: 42px;
@@ -169,7 +170,7 @@ form{
   width: 120%;
   height: 130%;
   position: absolute;
-  background-image: conic-gradient( transparent 20deg,#f5e15e 20deg , transparent 120deg);
+  background-image: conic-gradient( transparent 20deg,#ebb111 20deg , transparent 120deg);
   animation: an 2s linear infinite;
   border-radius: 10px;
   color:#5b5bf593;
@@ -179,7 +180,7 @@ form{
   width: 65px;
   height: 37px;
   position: absolute;
-  background-color:#a3a3f4e6;
+  background-color:#D6D7F6;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -192,7 +193,8 @@ form{
   
 }
 .header{
-  -webkit-box-shadow:inset 0 0 100px #5B5BF5 , 0 0 100px #5B5BF5 ;
+  -webkit-box-shadow:inset 0px 0px 10px 1px #5B5BF5 , 0 0 100px #5B5BF5 ;
+  background:#5b5bf530;
 }
 
 
@@ -223,6 +225,7 @@ form{
     border-radius:40% 55% 40% 60%/ 50%  60% 60% 50% ;
   }
 }
+
 
 @media screen and (max-width:800px) {
   .header{
@@ -257,7 +260,7 @@ form{
     position: fixed;
     bottom: -100%;
     left: 0;
-    -webkit-box-shadow:inset 0 0 100px #5B5BF5 , 0 0 10px #5B5BF5 ;
+    -webkit-box-shadow:inset 0 0 0px  , 0 0 10px #5B5BF5 ;
     background-color: aliceblue;
     width: 100%;
     border-top-left-radius: 30px;
@@ -270,7 +273,7 @@ form{
 
 
 
-  }
+  } 
   .nav a{
     border: 1px solid rgba(0, 0, 0, 0.46);
     padding: 10px;
@@ -305,22 +308,12 @@ form{
     justify-content: center;
     overflow: hidden;
   }
-  .n::before{
-    content: '';
-    width: 120%;
-    height: 120%;
-    position: absolute;
-    background-image: conic-gradient( transparent 20deg,#f5e15e 20deg , transparent 120deg);
-    animation: an 2s linear infinite;
-    border-radius: 10px;
-    color:#5b5bf593;
-  }
+
   .n::after{
     content: 'Abhey';
     width: 45px;
     height: 37px;
     position: absolute;
-    background-color:#a3a3f4e6;
     border-radius: 10px;
     display: flex;
     align-items: center;
