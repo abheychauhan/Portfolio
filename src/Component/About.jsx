@@ -50,20 +50,20 @@ function About() {
 
                     {isOpen && (
                       <ProjectModal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-                        <div className='p-10 flex items-center max-w-1/2 flex-wrap  gap-10'>
-                          <a href='https://insta-clone-nine-beta.vercel.app/' target='_blank' className='rounded-xl border-2 '>
+                        <div className='flex items-center justify-center  w-fit h-fit flex-wrap gap-6'>
+                          <a href='https://insta-clone-nine-beta.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
                             <img src={insta} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>Instagram Clone</h1>
                           </a>
-                          <a href='https://3d-solar-model.vercel.app/' target='_blank' className='rounded-xl border-2 '>
+                          <a href='https://3d-solar-model.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
                             <img src={solar} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>3D Solar Model</h1>
                           </a>
-                           <a href='https://quadb-training-ibw2mobileapp.vercel.app/' target='_blank' className='rounded-xl border-2 '>
+                           <a href='https://quadb-training-ibw2mobileapp.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
                             <img src={figma} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>Figma To Code Project</h1>
                           </a>
-                          <a href='https://kifayti.vercel.app/' target='_blank' className='rounded-xl border-2 '>
+                          <a href='https://kifayti.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
                             <img src={E_c} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>E-commerce</h1>
                           </a>
