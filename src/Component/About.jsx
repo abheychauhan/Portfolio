@@ -63,7 +63,7 @@ function About() {
                             <img src={figma} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>Figma To Code Project</h1>
                           </a>
-                          <a href='https://kifayti.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
+                          <a href='https://ecomerce-ashy-three.vercel.app/' target='_blank' className='rounded-xl border-2 w-fit p-2'>
                             <img src={E_c} className='w-40 h-40 object-cover rounded-xl' alt="" srcset="" />
                             <h1 className='text-l text-center font-semibold mt-2'>E-commerce</h1>
                           </a>
